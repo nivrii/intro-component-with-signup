@@ -1,0 +1,109 @@
+@import url(../../App.css);
+.close {
+  display: none;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  width: 100%;
+  margin-top: 15px;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.15);
+  & .input,
+  .btn {
+    height: 45px;
+    width: 100%;
+    border-radius: 7px;
+    font-family: "Poppins-regular", sans-serif;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  & .input-error {
+    border: 1px solid var(--red) !important;
+    color: var(--red) !important;
+    outline: none;
+    &:focus {
+      border: 2px solid var(--red) !important;
+    }
+    &::placeholder {
+      color: var(--red);
+    }
+  }
+  & .input-enclose {
+    display: flex;
+    flex-direction: column;
+    .input {
+      border: 1px solid var(--grayish-blue);
+      padding-left: 10px;
+      font-size: var(--fSize);
+    }
+    & .err-enclose {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      & .err {
+        display: flex;
+        justify-content: flex-end;
+        color: var(--red);
+        height: 20px;
+        max-height: 80px;
+        width: auto;
+        right: 0;
+        margin-left: calc(100% - width);
+        padding: 5px;
+        font-size: 10px;
+        font-family: "Poppins-light", sans-serif;
+        background-color: var(--white);
+        border:1px solid var(--green);
+        z-index: 999;
+      } & .mismatch{
+        position: absolute;
+        height: 15px;
+        color: var(--red); 
+        padding: 5px;
+        font-size: 10px;
+        font-family: "Poppins-light", sans-serif;
+        z-index: 0;
+      }
+    }
+    & .error-icon {
+      position: absolute;
+      padding: 2px;
+      right: 50px;
+      width: 25px;
+      height: 25px;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+  }
+  & .btn {
+    background-color: var(--green);
+    color: var(--white);
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  & .pWrap {
+    padding: 10px;
+    text-align: center;
+    margin-top: -15px;
+    & * {
+      margin: 0;
+      font-size: 10px;
+    }
+    & p:nth-child(1) {
+      font-family: "Poppins-light", sans-serif;
+      color: var(--grayish-blue);
+    }
+    & p:nth-child(2) {
+      font-family: "Poppins-bold", sans-serif;
+      color: var(--red);
+    }
+  }
+}

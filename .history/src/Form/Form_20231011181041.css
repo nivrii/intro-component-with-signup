@@ -1,0 +1,8 @@
+@import url(../App.css);
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--white);
+    padding: 20px;
+}

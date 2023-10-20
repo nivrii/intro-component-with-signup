@@ -1,0 +1,8 @@
+@import url(../App.css);
+
+.content {
+  background-color: var(--green);
+}
+.content>h4 {
+    color: var(--white);
+}

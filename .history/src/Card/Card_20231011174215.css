@@ -1,0 +1,5 @@
+@import url('../App.css')
+
+.card__content{
+    background-color: var(--blue);
+}

@@ -1,0 +1,20 @@
+@import url(../App.css);
+
+.card__content{
+    width: 100%;
+    background-color: var(--blue);
+    border-radius: 12px;
+    padding: 10px 70px;
+    & *{
+        color: var(--white);
+        text-align: center;
+        margin: 1px;
+    }& span{
+        font-size: 15px;
+        font-family: 'Poppins-medium', sans-serif;
+    }
+    & p{
+        font-family: 'Poppins-light', sans-serif;
+        font-size: var(--fSize);
+    }
+}

@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+}
+:root{
+  /*Primary colors*/
+  --red:hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  /*Accent colors*/
+  --blue: hsl(248, 32%, 49%);
+  --white:#FAFAF9;
+  /*Neutral colors*/
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+  /*typography*/
+  --fSize: 16px;
+  --w4: 400;
+  --w5: 500;
+  --w6: 600;
+  --w7: 700;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url();
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--red);
+  padding: 20px;
+}

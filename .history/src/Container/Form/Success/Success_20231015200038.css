@@ -1,0 +1,11 @@
+@import url(../../../App.css);
+
+.success{
+    & h4{
+        color:var(--white);
+        font-family: 'Poppins-light', sans-serif;
+        & span{
+            font-family: 'Poppins-bold', sans-serif;
+        }
+    }
+}

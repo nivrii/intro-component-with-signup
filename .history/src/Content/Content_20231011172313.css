@@ -1,0 +1,10 @@
+@import url(../App.css);
+
+.content {
+  background-color: var(--blue);
+  & * {
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+}

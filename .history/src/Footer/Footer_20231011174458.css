@@ -1,0 +1,8 @@
+@import url(../App.css);
+
+footer{
+    background-color: var(--blue);
+}
+.attribution{
+    color: var(--white);
+}

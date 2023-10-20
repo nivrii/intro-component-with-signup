@@ -1,0 +1,19 @@
+@import url(../../../App.css);
+
+.success{
+    display: flex;
+    flex-direction: column;
+    & img{
+        height: 70px;
+        width: 70px;
+        align-self: center;
+    }
+    & h4{
+        color:var(--white);
+        font-family: 'Poppins-light', sans-serif;
+        text-align: center;
+        & span{
+            font-family: 'Poppins-bold', sans-serif;
+        }
+    }
+}

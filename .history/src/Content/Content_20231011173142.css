@@ -1,0 +1,16 @@
+@import url(../App.css);
+
+.content {
+  & * {
+    color: var(--white);
+    text-align: center;
+  }
+  & h4 {
+    font-size: 25px;
+    margin: 20px;
+    font-family: 'Poppins-bold', sans-serif;
+  }
+  & p {
+    font-size: var(--fSize);
+  }
+}

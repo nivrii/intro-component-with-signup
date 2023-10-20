@@ -1,0 +1,8 @@
+@import url(../../../App.css);
+
+.success{
+    & h4{
+        color:var(--white);
+        font-family: 'Poppins-bold', sans-serif;
+    }
+}

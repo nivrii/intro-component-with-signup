@@ -1,0 +1,14 @@
+@import url(../../../App.css);
+
+.success{
+    & img{
+        text-align: center;
+    }
+    & h4{
+        color:var(--white);
+        font-family: 'Poppins-light', sans-serif;
+        & span{
+            font-family: 'Poppins-bold', sans-serif;
+        }
+    }
+}

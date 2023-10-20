@@ -1,0 +1,7 @@
+@import url(../App.css);
+
+.card__content{
+    width: 100%;
+    background-color: var(--blue);
+    border-radius: 12px;
+}
