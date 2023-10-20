@@ -38,13 +38,13 @@
   src: url(./assets/Fonts/poppins/Poppins-Light.otf) format("opentype");
 }
 body {
-  background-image: url(./assets/images/bg-intro-mobile.png) no-repeat center center/ cover;
-  background-color: var(--red);
+  background-color: #000;
 }
 .UI {
   display: flex;
   flex-direction: column;
-  
+  background-color: var(--red);
+  background-image: url(./assets/images/bg-intro-mobile.png) no-repeat center center/ cover;
 }
 .container {
   display: flex;
@@ -53,6 +53,7 @@ body {
   justify-content: center;
   width: 100%;
   min-height: 80vh;
+  /* background-color: var(--light-red); */
   padding: 50px 20px 70px;
 }
 .close {
